@@ -1,0 +1,60 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    border-bottom: 1px solid #000;
+}
+
+footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    padding: 10px;
+    border-top: 1px solid #000;
+    background-color: #fff;
+}
+
+section {
+    position: relative;
+    margin-top: 50px;
+    top: 0;
+    left: 0;
+    margin-bottom: 50px;
+    padding: 0px 10px;
+}
+
+div.navbar {
+    background-color: #fff;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+div.navbar a {
+    display: inline-block;
+    color: #000;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+div.navbar a:hover {
+    text-decoration: underline;
+}
+
+div.navbar a.active {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
